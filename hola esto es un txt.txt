@@ -10,4 +10,6 @@ git add #para agregar algo proximo a hacer commit
 git config --global user.name "kevinEsquivel" #determinar nombre del git
 git config --global user.email "chivatico2@gmail.com" #configgurar correo
 
+git log nombreArchivo # historial de todo lo que es  modificaciones
 
+git show # muesta mucha info sobre los cambio y mas cosas 
