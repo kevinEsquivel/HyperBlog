@@ -1,1 +1,13 @@
 hola esto es un txt
+estoy modificando el archivo
+porque estoy haciendo un curso 
+de github
+
+acabo de ver
+git status #para ver los status de el git
+git commit -m "descripcion de lo que se hizo"# para ya subir
+git add #para agregar algo proximo a hacer commit
+git config --global user.name "kevinEsquivel" #determinar nombre del git
+git config --global user.email "chivatico2@gmail.com" #configgurar correo
+
+
