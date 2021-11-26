@@ -13,7 +13,9 @@ git config --global user.email "chivatico2@gmail.com" #configgurar correo
 git log nombreArchivo # historial de todo lo que es  modificaciones
 
 git show # muesta mucha info sobre los cambio y mas cosas 
-git reset #nos vuelve a una version anterior seleccionando el numero del commit
+git reset #commit  -- hard #nos vuelve a una version anterior seleccionando el 
+                            numero del commit, pero borra las modificaciones que 
+                            se hicieron despues de ese archivo
 
 
 
