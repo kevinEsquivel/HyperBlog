@@ -22,6 +22,11 @@ it reset --soft:    #Borramos todo el historial y los registros de Git pero guar
                      cambios que tengamos en Staging, así podemos aplicar las últimas 
                      actualizaciones a un nuevo commit.
 
+git reset HEAD:      #Este es el comando para sacar archivos del área de staging. 
+                        No para borrarlos ni nada de eso, solo para que los últimos cambios de 
+                        estos archivos no se envíen al último commit, a menos que cambiemos de opinión 
+                        y los incluyamos de nuevo en staging con git add, por supuesto.
+
 git reset --hard:   #Borra todo. Todo todito, absolutamente todo. Toda la información de los 
                      commits y del área de staging se borra del historial.
 
