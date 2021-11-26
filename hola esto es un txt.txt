@@ -17,13 +17,10 @@ git config --global user.email "chivatico2@gmail.com" #configgurar correo
 git log nombreArchivo # historial de todo lo que es  modificaciones
 
 git show # muesta mucha info sobre los cambio y mas cosas 
-<<<<<<< HEAD
+
 git reset #commit  -- hard #nos vuelve a una version anterior seleccionando el 
                             numero del commit, pero borra las modificaciones que 
                             se hicieron despues de ese archivo
-
-
-=======
 
 it reset --soft:    #Borramos todo el historial y los registros de Git pero guardamos los 
                      cambios que tengamos en Staging, así podemos aplicar las últimas 
@@ -49,7 +46,6 @@ git rm --force:    #Elimina los archivos de Git y del disco duro. Git siempre gu
 
 git checkout      # te permite darle una mirada a una version es especifico y para 
                     regresar tienes que poner git checkout master #nombre archivo
->>>>>>> b6b9b93
 
 aqui agregare para ver algo mas
 
