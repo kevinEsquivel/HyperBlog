@@ -18,3 +18,12 @@ git show # muesta mucha info sobre los cambio y mas cosas
 
 
 aqui agregare para ver algo mas
+
+ DIRECTORIO       |  STAGING(RAM)   |    REPOSITORIO
+ /proyecto1/      |                 |
+ .holaEstoES.txt  |                 |
+ con git add ------>Se mueve a      |
+                  | Memoria ram.    |
+                  |Con git commit -----> se mueve al repositorio
+                  | Con git rm      |   a master que es la branch
+               <------              |
