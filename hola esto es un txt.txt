@@ -13,7 +13,7 @@ git config --global user.email "chivatico2@gmail.com" #configgurar correo
 git log nombreArchivo # historial de todo lo que es  modificaciones
 
 git show # muesta mucha info sobre los cambio y mas cosas 
-
+git reset #nos vuelve a una version anterior seleccionando el numero del commit
 
 
 
@@ -26,4 +26,4 @@ aqui agregare para ver algo mas
                   | Memoria ram.    |
                   |Con git commit -----> se mueve al repositorio
                   | Con git rm      |   a master que es la branch
-               <------              |
+               <------              |   
