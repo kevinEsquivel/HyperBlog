@@ -10,4 +10,23 @@ git add #para agregar algo proximo a hacer commit
 git config --global user.name "kevinEsquivel" #determinar nombre del git
 git config --global user.email "chivatico2@gmail.com" #configgurar correo
 
+git log nombreArchivo # historial de todo lo que es  modificaciones
 
+git show # muesta mucha info sobre los cambio y mas cosas 
+git reset #commit  -- hard #nos vuelve a una version anterior seleccionando el 
+                            numero del commit, pero borra las modificaciones que 
+                            se hicieron despues de ese archivo
+
+git checkout      # te permite darle una mirada a una version es especifico y para 
+                    regresar tienes que poner git checkout master #nombre archivo
+
+aqui agregare para ver algo mas
+
+ DIRECTORIO       |  STAGING(RAM)   |    REPOSITORIO
+ /proyecto1/      |                 |
+ .holaEstoES.txt  |                 |
+ con git add ------>Se mueve a      |
+                  | Memoria ram.    |
+                  |Con git commit -----> se mueve al repositorio
+                  | Con git rm      |   a master que es la branch
+               <------              |   
