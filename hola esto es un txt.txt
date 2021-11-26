@@ -5,19 +5,51 @@ de github
 
 acabo de ver
 git status #para ver los status de el git
+
 git commit -m "descripcion de lo que se hizo"# para ya subir
+
 git add #para agregar algo proximo a hacer commit
+
 git config --global user.name "kevinEsquivel" #determinar nombre del git
+
 git config --global user.email "chivatico2@gmail.com" #configgurar correo
 
 git log nombreArchivo # historial de todo lo que es  modificaciones
 
 git show # muesta mucha info sobre los cambio y mas cosas 
+<<<<<<< HEAD
 git reset #commit  -- hard #nos vuelve a una version anterior seleccionando el 
                             numero del commit, pero borra las modificaciones que 
                             se hicieron despues de ese archivo
 
 
+=======
+
+it reset --soft:    #Borramos todo el historial y los registros de Git pero guardamos los 
+                     cambios que tengamos en Staging, así podemos aplicar las últimas 
+                     actualizaciones a un nuevo commit.
+
+git reset HEAD:      #Este es el comando para sacar archivos del área de staging. 
+                        No para borrarlos ni nada de eso, solo para que los últimos cambios de 
+                        estos archivos no se envíen al último commit, a menos que cambiemos de opinión 
+                        y los incluyamos de nuevo en staging con git add, por supuesto.
+
+git reset --hard:   #Borra todo. Todo todito, absolutamente todo. Toda la información de los 
+                     commits y del área de staging se borra del historial.
+
+git rm --cached:   #Elimina los archivos de nuestro repositorio local y del área de 
+                    staging, pero los mantiene en nuestro disco duro. Básicamente le 
+                    dice a Git que deje de trackear el historial de cambios de estos 
+                    archivos, por lo que pasaran a un estado untracked.
+
+git rm --force:    #Elimina los archivos de Git y del disco duro. Git siempre guarda todo, 
+                    por lo que podemos acceder al registro de la existencia de los archivos, 
+                    de modo que podremos recuperarlos si es necesario 
+                    (pero debemos usar comandos más avanzados).
+
+git checkout      # te permite darle una mirada a una version es especifico y para 
+                    regresar tienes que poner git checkout master #nombre archivo
+>>>>>>> b6b9b93
 
 aqui agregare para ver algo mas
 
