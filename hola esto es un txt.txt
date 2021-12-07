@@ -62,4 +62,6 @@ _______________________________________________________________________||       
 
 
 
-git cabecera
+git branch "nombreCabecera"   #este comando me pertmite ccrea una rama con 
+                              git checkout "NOmbreRama" puedo moverme entre cabeceras
+
