@@ -62,6 +62,9 @@ _______________________________________________________________________||       
 
 
 
-git branch "nombreCabecera"   #este comando me pertmite ccrea una rama con 
+git branch "nombreRama"   #este comando me pertmite ccrea una rama con 
                               git checkout "NOmbreRama" puedo moverme entre cabeceras
 
+git merge  "nombreRama"   #nos permite crear un nuevo commit con la combinación
+                            de dos ramas (la rama donde nos encontramos cuando 
+                            ejecutamos el comando y la rama que indiquemos después del comando).
