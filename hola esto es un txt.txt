@@ -68,3 +68,28 @@ git branch "nombreRama"   #este comando me pertmite ccrea una rama con
 git merge  "nombreRama"   #nos permite crear un nuevo commit con la combinación
                             de dos ramas (la rama donde nos encontramos cuando 
                             ejecutamos el comando y la rama que indiquemos después del comando).
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+ Primero: Guardar la URL del repositorio de GitHub
+git remote add origin URL # con el nombre de origin
+
+
+# Segundo: Verificar que la URL se haya guardado
+# correctamente:
+git remote
+git remote -v
+
+# Tercero: Traer la versión del repositorio remoto y
+# hacer merge para crear un commit con los archivos
+# de ambas partes. Podemos usar git fetch y git merge
+# o solo el git pull con el flag --allow-unrelated-histories:
+
+git pull origin main --allow-unrelated-histories
+
+# Por último, ahora sí podemos hacer git push para guardar
+# los cambios de nuestro repositorio local en GitHub:
+
+git push origin main
+git push origin HEAD:master  #Lo use porque me crea una rama 
