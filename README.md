@@ -153,9 +153,42 @@ ya se a por correo o por el usuario de GitHub
 git stash para regresar el cambio anterior que hicimos.
 
 git stash es típico cuando estamos cambios que no merecen una rama o no merecen un rebase si no simplemente estamos probando algo y luego quieres volver rápidamente a tu versión anterior la cual es la correcta.
-```
-```
-git clean --dry-run  -->mostrara todos los archivos que se borraran,!no borra CARPETAS, ni datos que esten en el .gitignore!
 
-git clean --f -->remueve todos los datos listados de arriba
+git clean --dry-run  --> mostrara todos los archivos que se borraran,!no borra CARPETAS, ni datos que esten en el .gitignore!
+
+git clean --f --> remueve todos los datos listados de arriba
+
+git commit --amend --> amend en inglés es remendar y lo que hará es que los cambios que hicimos nos los agregará al commit anterior.
+
+```
+## Buscar archivos y commits en git
+
+
+```
+git grep color -->use la palabra color
+git grep la --> donde use la palabra la
+git grep -n color–> en que lineas use la palabra color
+git grep -n platzi --> en que lineas use la palabra platzi
+git grep -c la --> cuantas veces use la palabra la
+git grep -c paltzi --> cuantas veces use la palabra platzi
+git grep -c “<p>”–> cuantas veces use la etiqueta <p>
+
+git log-S “cabecera” --> cuantas veces use la palabra cabecera en
+todos los commits.
+
+grep–> para los archivos
+log --> para los commits.
+```
+
+## Comandos y recursos colaborativos en git y github
+```
+git shortlog -sn = muestra cuantos commit han hecho cada miembros del equipo.
+git shortlog -sn --all = muestra cuantos commit han hecho cada miembros del equipo hasta los que han sido eliminado
+git shortlog -sn --all --no-merge = muestra cuantos commit han hecho cada miembros quitando los eliminados sin los merges
+git blame ARCHIVO = muestra quien hizo cada cosa linea por linea
+git COMANDO --help = muestra como funciona el comando.
+git blame ARCHIVO -Llinea_inicial,linea_final= muestra quien hizo cada cosa linea por linea indicándole desde que linea ver ejemplo -L35,50
+**git branch -r **= se muestran todas las ramas remotas
+git branch -a = se muestran todas las ramas tanto locales como remotas
+
 ```
