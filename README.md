@@ -154,3 +154,8 @@ git stash para regresar el cambio anterior que hicimos.
 
 git stash es típico cuando estamos cambios que no merecen una rama o no merecen un rebase si no simplemente estamos probando algo y luego quieres volver rápidamente a tu versión anterior la cual es la correcta.
 ```
+```
+git clean --dry-run  -->mostrara todos los archivos que se borraran,!no borra CARPETAS, ni datos que esten en el .gitignore!
+
+git clean --f -->remueve todos los datos listados de arriba
+```
