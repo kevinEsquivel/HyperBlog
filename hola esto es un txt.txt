@@ -97,4 +97,7 @@ git push origin HEAD:master  #Lo use porque me crea una rama
 Ahora podemos actualizar la URL que guardamos en nuestro repositorio remoto, solo que, en vez de guardar la URL con HTTPS, vamos a usar la URL con SSH:
 git remote set-url origin url-ssh-del-repositorio-en-github
 
-
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ AGREGAR COLABOLADORES 
+Para agregar COLABOLADORES tengo que ir a seting y a colaboladores agregarlos
+ya se a por correo o por el usuario de GitHub
