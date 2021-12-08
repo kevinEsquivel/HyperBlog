@@ -2,7 +2,7 @@
 
 ## CURSO PLATZY GIT Y GITHUB
 
-######## COMANDOS
+###### COMANDOS
 ```
 git status --->para ver los status de el git
 
@@ -51,14 +51,14 @@ aqui agregare para ver algo mas
 
 | DIRECTORIO       |  STAGING(RAM)   |    REPOSITORIO  LOCAL            |                       |  REPOSITORIO REMOTO   |
 | ---------------- | --------------- | -------------------------------- | --------------------- | --------------------- |
-| /proyecto1/   <------------------git merge------------   <---------------------git fetch----- |                       |
+| /proyecto1/  < _ | _______________ | ____ git merge ___________  < __ | ______ git fetch ____ |                       |
 | .holaEstoES.txt  |                 |                                  |                       |                       |
-| con git add ------>Se mueve a      |                                  |                       |                       | 
-|                  | Memoria ram.    |                                  |-------git push ---->  |                       | 
-|                  |Con git commit -----> se mueve al repositorio       |                       |                       |
+| con git add ____ | _ >Se mueve a   |                                  |                       |                       | 
+|                  | Memoria ram.    |                                  | _____ git push ___ >  |                       | 
+|                  |Con git commit _ | ___ > se mueve al repositorio    |                       |                       |
 |                  | Con git rm borra|   a master que es la branch      |                       |                       |
-|               <--- git reset HEAD  |                                  |                       |                       |
-|               <----------------------------------------------------------------git pull------ |                       |
+|            < ___ | git reset HEAD  |                                  |                       |                       |
+|            < ___ | _______________ | ________________________________ | ______ git pull _____ |                       |
 
 
 
