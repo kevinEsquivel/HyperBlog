@@ -48,17 +48,18 @@ git checkout      ---> te permite darle una mirada a una version es especifico y
                     regresar tienes que poner git checkout master --->nombre archivo
 ```
 aqui agregare para ver algo mas
-|_______________________________________________________________________________________________________________________
-| DIRECTORIO       |  STAGING(RAM)   |    REPOSITORIO  LOCAL            ||                       |  REPOSITORIO REMOTO   |
-| /proyecto1/   <------------------git merge------------   <---------------------git fetch------ |                       |
-| .holaEstoES.txt  |                 |                                  ||                       |                       |
-| con git add ------>Se mueve a      |                                  ||                       |                       | 
-|                  | Memoria ram.    |                                  ||-------git push ---->  |                       | 
-|                  |Con git commit -----> se mueve al repositorio       ||                       |                       |
-|                  | Con git rm borra|   a master que es la branch      ||                       |                       |
-|               <--- git reset HEAD  |                                  ||                       |                       |
-|               <----------------------------------------------------------------git pull------- |                       |
-|_______________________________________________________________________||_______________________|_______________________|
+
+| DIRECTORIO       |  STAGING(RAM)   |    REPOSITORIO  LOCAL            |                       |  REPOSITORIO REMOTO   |
+| ---------------- | --------------- | -------------------------------- | --------------------- | --------------------- |
+| /proyecto1/   <------------------git merge------------   <---------------------git fetch----- |                       |
+| .holaEstoES.txt  |                 |                                  |                       |                       |
+| con git add ------>Se mueve a      |                                  |                       |                       | 
+|                  | Memoria ram.    |                                  |-------git push ---->  |                       | 
+|                  |Con git commit -----> se mueve al repositorio       |                       |                       |
+|                  | Con git rm borra|   a master que es la branch      |                       |                       |
+|               <--- git reset HEAD  |                                  |                       |                       |
+|               <----------------------------------------------------------------git pull------ |                       |
+
 
 
 ```
