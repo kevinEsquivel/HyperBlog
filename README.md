@@ -147,3 +147,10 @@ ___________________________________________________________________________
 ## AGREGAR COLABOLADORES 
 Para agregar COLABOLADORES tengo que ir a seting y a colaboladores agregarlos
 ya se a por correo o por el usuario de GitHub
+
+## Guardar cambios en memoria y recuperarlos despues
+```
+git stash para regresar el cambio anterior que hicimos.
+
+git stash es típico cuando estamos cambios que no merecen una rama o no merecen un rebase si no simplemente estamos probando algo y luego quieres volver rápidamente a tu versión anterior la cual es la correcta.
+```
